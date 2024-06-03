@@ -1,0 +1,24 @@
+{
+  "groups": {
+    "Mail": {
+      "description": "Mail related files",
+      "files": [
+        "src/mail/**",
+        "tests/MailService.test.js"
+      ],
+      "completionConditions": {
+        "all": true
+      }
+    },
+    "Checkout": {
+      "description": "Checkout related files",
+      "files": [
+        "src/checkout/**",
+        "tests/CheckoutService.test.js"
+      ],
+      "completionConditions": {
+        "all": true
+      }
+    }
+  }
+}
